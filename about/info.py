@@ -1,6 +1,0 @@
-print("""
-  Name = Raiyyan Siddiqui
-
-
-
-""")
