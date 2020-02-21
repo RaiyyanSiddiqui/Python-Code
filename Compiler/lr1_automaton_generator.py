@@ -139,7 +139,6 @@ class Table:
         if(token.islower()): 
             return out
         newLookahead = self.getLookahead(closure)
-        print("|||", closure, " - ", newLookahead)
         for c in self.closures: # find relevant branching closures
             if(c.parent == token):
                 newC = c.clone()
